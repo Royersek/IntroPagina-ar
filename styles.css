@@ -1,0 +1,124 @@
+:root {
+    --bg: #0f172a;
+    --card: #111827;
+    --text: #e2e8f0;
+    --accent: #38bdf8;
+  }
+  
+  body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    background: radial-gradient(circle at top, #0f172a 0%, #020617 55%, #000 100%);
+    color: var(--text);
+    line-height: 1.6;
+    padding: 24px;
+  }
+  
+  .page {
+    max-width: 950px;
+    margin: 0 auto;
+  }
+  
+  /* PORTADA */
+  .portada {
+    background: #fff;
+    color: #000;
+    border-radius: 16px;
+    padding: 40px 32px 32px;
+    text-align: center;
+    margin-bottom: 32px;
+  }
+  
+  .portada h1 {
+    font-size: 32px;
+    margin-bottom: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+  }
+  
+  .portada img {
+    width: 150px;
+    height: auto;
+    margin-bottom: 24px;
+  }
+  
+  .portada .datos {
+    text-align: left;
+    display: inline-block;
+    line-height: 1.4;
+    font-size: 15px;
+  }
+  
+  /* CONTENIDO */
+  header {
+    margin-bottom: 29px;
+  }
+  
+  .titulo-contenido {
+    font-size: 22px;
+    color: #fff;
+    margin-bottom: 8px;
+  }
+  
+  .lead {
+    max-width: 832px;
+    color: #cbd5f5;
+  }
+  
+  .grid {
+    display: grid;
+    gap: 19px;
+  }
+  
+  @media (min-width: 780px) {
+    .grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  
+  .card {
+    background: rgba(17, 24, 39, 0.5);
+    border: 1px solid rgba(148, 163, 184, 0.08);
+    border-radius: 16px;
+    padding: 16px 18px 18px;
+    backdrop-filter: blur(8px);
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  
+  small.badge {
+    background: rgba(56, 189, 248, .12);
+    border: 1px solid rgba(56, 189, 248, .35);
+    color: var(--accent);
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+  
+  ul {
+    padding-left: 18px;
+    margin: 6px 0 0;
+  }
+  
+  code {
+    background: rgba(15, 23, 42, .25);
+    border: 1px solid rgba(148, 163, 184, .1);
+    border-radius: 6px;
+    padding: 3px 6px;
+    font-size: 12px;
+  }
+  
+  footer {
+    margin-top: 24px;
+    font-size: 11px;
+    color: #94a3b8;
+  }
+  
