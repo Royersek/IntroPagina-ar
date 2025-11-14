@@ -4,17 +4,15 @@
   <meta charset="UTF-8" />
   <title>RA Marina – TP</title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- enlace al CSS externo -->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <div class="page">
 
-
     <section class="portada">
       <h1>TEMA: REALIDAD AUMENTADA TP</h1>
      
-      <img src="images/logo35.jpeg" alt="Escuela Técnica Nº 35 D.E.18 asi es" />
+      <img class="logo" src="logo35.jpeg" alt="Escuela Técnica Nº 35 D.E.18 asi es" />
       <div class="datos">
         <p><strong>Fecha inicio:</strong> 27/10/2025</p>
         <p><strong>Fecha de finalización:</strong> 3/11/2025</p>
@@ -24,6 +22,8 @@
         <p><strong>Curso:</strong> 5to 3era computación</p>
       </div>
     </section>
+    <hr>
+    <hr><hr>
 
     <header>
       <h2 class="titulo-contenido">Experiencia de Realidad Aumentada: Pez 3D</h2>
@@ -40,13 +40,13 @@
           Elegimos trabajar con una especie de pez para explicar características físicas y diversidad marina.
           La idea nace del videojuego en proceso <strong>“Galaga Ocean”</strong>.
         </p>
-
       </article>
 
       <article class="card">
         <h2>2. Referencias técnicas y conceptuales <small class="badge">fuentes</small></h2>
         <p>
           Inspiración en <strong>Galaga (Namco, 1981)</strong>
+        </p>
         <p>
           Técnicamente: documentación de <strong>MindAR</strong> y <strong>A-Frame</strong>, modelos <code>.glb</code> desde Sketchfab.
         </p>
@@ -68,12 +68,35 @@
         <p>
           MindAR para detección + A-Frame para la escena 3D. HTML5, VS Code y GitHub para el proyecto.
         </p>
-        
       </article>
     </section>
 
+    <section class="marker-section">
+      <h2>Sumergete en la experiencia:</h2>
+      <p>
+        Escaneá este código QR con la cámara de la experiencia de realidad aumentada.
+        Luego escaneá el marcador "Hiro" para que aparezca el modelo 3D del pez.
+      </p>
+
+      <div class="marker-box">
+        <img
+          src="analisis (1).png"
+          alt="Código QR que lleva directo a la página"
+          class="marker-image"
+        >
+
+        <div class="marker-divider"></div>
+
+        <img
+          src="Hiro_marker.png"
+          alt="Marcador de Hiro"
+          class="marker-image"
+        >
+      </div>
+    </section>
+
     <footer>
-      Versión de muestra para informe / página de presentación del proyecto de RA marina.
+      Página de presentación del proyecto de RA marina.
     </footer>
   </div>
 </body>
